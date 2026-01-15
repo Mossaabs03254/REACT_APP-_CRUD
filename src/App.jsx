@@ -12,7 +12,6 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-
       <div className="flex flex-1">
         <Sidebar setPage={setPage} />
 
@@ -21,7 +20,7 @@ export default function App() {
           {page === "users" && <Users />}
         </main>
       </div>
-test
+      hello test
       <Footer />
     </div>
   );
